@@ -1,5 +1,5 @@
 /**
- * fassets - Project for light-weight tracking of fixed assets
+ * cash - A light weight monetary facade for the rest of us
  * Copyright © 2018 Edwin Njeru (mailnjeru@gmail.com)
  *
  * This program is free software: you can redistribute it and/or modify

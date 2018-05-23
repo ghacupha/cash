@@ -1,8 +1,6 @@
 language: java
 install: true
 script:
-- mvn clean test
-- mvn clean validate
 - mvn clean verify
 - mvn compile
 - mvn clean package
