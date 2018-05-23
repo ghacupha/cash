@@ -79,6 +79,10 @@
         <license.maven.owner>Edwin Njeru</license.maven.owner>
         <license.maven.email>mailnjeru@gmail.com</license.maven.email>
 
+        <!--Maven license plugin configuration-->
+        <maven.licenses.output.directory>${project.basedir}/target/licenses</maven.licenses.output.directory>
+        <add.java.license.after.package>true</add.java.license.after.package>
+
         <!-- Properties for maven-checkstyle-plugin -->
         <checkstyle.config.location>${project.basedir}/config/checkstyle.xml</checkstyle.config.location>
         <checkstyle.config.headerLocation>${project.basedir}/config/license_header.txt</checkstyle.config.headerLocation>
@@ -414,6 +418,10 @@
                         </goals>
                     </execution>
                 </executions>
+                <configuration>
+                    <addJavaLicenseAfterPackage>${add.java.license.after.package}</addJavaLicenseAfterPackage>
+                    <licensesOutputDirectory>${maven.licenses.output.directory}</licensesOutputDirectory>
+                </configuration>
             </plugin>
         </plugins>
     </build>

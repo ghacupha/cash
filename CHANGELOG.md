@@ -1,12 +1,23 @@
+
 Changelog for  implementation by 
 
 ## Unreleased
 ### No issue
 
-**Initial upload of all sources and passing tests**
+**updated the checkstyle ruleset to include the name of this project**
 
 
-[0c0beca12e1243a](https://github.com///commit/0c0beca12e1243a) ghacupha *2018-05-23 09:19:32*
+[b3c1b233211089b](https://github.com///commit/b3c1b233211089b) ghacupha *2018-05-23 09:36:05*
+
+**Included changelog into the VCS**
+
+
+[81d5bc81a510b86](https://github.com///commit/81d5bc81a510b86) ghacupha *2018-05-23 09:32:21*
+
+**Updated license header in sources and tests to LGPL version 3**
+
+
+[e1efa4602314988](https://github.com///commit/e1efa4602314988) ghacupha *2018-05-23 09:31:42*
 
 
 
