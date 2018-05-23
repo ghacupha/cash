@@ -84,7 +84,7 @@
 
         <!--General-->
         <changelog.template.file>${project.basedir}/config/changelog.mustache</changelog.template.file>
-        <required.maven.version>3.5.2</required.maven.version>
+        <required.maven.version>3..2.5</required.maven.version>
 
         <!--Mycila License plugin-->
         <license.header.location>com/mycila/maven/plugin/license/templates/LGPL-3.txt</license.header.location>
