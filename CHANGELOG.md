@@ -7,6 +7,11 @@ Changelog for  implementation by
 **Changed license headers from GPL v3 to LGPL v3 and added the main license notification**
 
 
+[e4c6b2c635dbcf5](https://github.com///commit/e4c6b2c635dbcf5) ghacupha *2018-05-23 10:23:03*
+
+**Changed license headers from GPL v3 to LGPL v3 and added the main license notification**
+
+
 [452c16f0be73f91](https://github.com///commit/452c16f0be73f91) ghacupha *2018-05-23 10:22:26*
 
 **Reconfigured location for codehaus mojo license maven plugin to '/target/licenses'**

@@ -25,7 +25,7 @@
 
     <groupId>io.github.ghacupha</groupId>
     <artifactId>cash</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.0.0</version>
 
     <name>cash</name>
     <inceptionYear>2018</inceptionYear>
@@ -47,7 +47,7 @@
 
     <organization>
         <name>Edwin Njeru &lt;mailnjeru@gmail.com&gt;</name>
-        <url>http://www.your.website.com</url>
+        <url>https://github.com/ghacupha</url>
     </organization>
 
     <properties>
@@ -396,6 +396,8 @@
                         <exclude>**/README</exclude>
                         <exclude>**/CHANGELOG.md</exclude>
                         <exclude>**/LICENSE</exclude>
+                        <exclude>**/LICENSE.md</exclude>
+                        <exclude>**/LICENSE.txt</exclude>
                         <exclude>**/logs/**</exclude>
                         <exclude>**/.idea/**</exclude>
                         <exclude>**/.mvn/**</exclude>
