@@ -1,4 +1,5 @@
 [![Build Status](https://travis-ci.org/ghacupha/cash.svg?branch=master)](https://travis-ci.org/ghacupha/cash)
+[![](https://jitpack.io/v/ghacupha/cash.svg)](https://jitpack.io/#ghacupha/cash)
 
 # cash
 
@@ -295,13 +296,63 @@ hibernate, you could use the cash interface to represent money **anywhere** in y
 has been tested and it works. And is currently being used [some](https://github.com/ghacupha/fassets)
 applications to implement persitent accounts.
 
-###### Did you say accounts? Like book keeping?
+##### Did you say accounts? Like book keeping?
 Hehehe! An [abstraction](https://github.com/ghacupha/book-keeper) for another day
+
+#### Okay, you sold me. How do I install it?
+I was not selling you. Seriously, I mean it, don't use this library! Very well if you are going to ignore
+everything I tell you, you might download this with maven using jitpack repository like so:
+```java
+<repositories>
+  <repository>
+   <id>jitpack.io</id>
+   <url>https://jitpack.io</url>
+  </repository>
+</repositories>
+
+<!-- Dependencies -->
+<dependency>
+  <groupId>com.github.ghacupha</groupId>
+  <artifactId>cash</artifactId>
+  <version>v1.0.0</version>
+</dependency>
+
+```
+
+###### To install from source
+**Requirements**
+ - Java 8. Seriously why would you be using version 6 in 2018?
+ - Maven version 3.5.3 => This is enforced in the POM. You can change to the version in your system but i could
+ not guarantee you successful builds
+ - GIT, obviosly
+
+ in your favourite work folder do this:
+ ```
+    git clone https://github.com/ghacupha/cash.git
+
+    cd cash
+
+    mvn clean package
+
+    mvn install
+
+    #Done
+ ```
+
+Then now you could add it from your local maven repository like so:
+```java
+<!-- Dependencies -->
+<dependency>
+  <groupId>com.github.ghacupha</groupId>
+  <artifactId>cash</artifactId>
+  <version>1.0.0</version>
+</dependency>
+```
 
 ## TODO
 
-- Implement FastCash which is a Money model backed by long apparently believed by some authorities
- to be faster than BigDecimal
+- Implement FastCash which is a Money model implementation of the Cash interface backed by long integer,
+ apparently believed by some authorities to be faster than BigDecimal
 - Implement more static initializers
 
 ## Contact
