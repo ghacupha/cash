@@ -314,7 +314,7 @@ everything I tell you, you might download this with maven using jitpack reposito
 <dependency>
   <groupId>com.github.ghacupha</groupId>
   <artifactId>cash</artifactId>
-  <version>v1.0.0</version>
+  <version>1.0.0</version>
 </dependency>
 
 ```
