@@ -4,6 +4,11 @@ Changelog for  implementation by
 ## Unreleased
 ### No issue
 
+**Reconfigured location for codehaus mojo license maven plugin to '/target/licenses'**
+
+
+[d48aef4af17cae3](https://github.com///commit/d48aef4af17cae3) ghacupha *2018-05-23 10:03:25*
+
 **updated the checkstyle ruleset to include the name of this project**
 
 
