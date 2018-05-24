@@ -7,6 +7,29 @@ Changelog for cash implementation by ghacupha
 **Updated the README file**
 
 
+[75a11462898ef63](https://github.com/ghacupha/cash/commit/75a11462898ef63) ghacupha *2018-05-23 14:25:12*
+
+
+## 1.0.0
+### No issue
+
+**Updated the README file**
+
+
+[e2f7d4476e0923b](https://github.com/ghacupha/cash/commit/e2f7d4476e0923b) ghacupha *2018-05-23 14:20:17*
+
+
+## v1.0.0
+### No issue
+
+**Updated the README file**
+
+
+[20a6cdb7ac2dce3](https://github.com/ghacupha/cash/commit/20a6cdb7ac2dce3) ghacupha *2018-05-23 14:13:37*
+
+**Updated the README file**
+
+
 [6408ccebdbce47a](https://github.com/ghacupha/cash/commit/6408ccebdbce47a) ghacupha *2018-05-23 14:13:20*
 
 **Updated the README file**

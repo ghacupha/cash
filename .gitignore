@@ -12,6 +12,10 @@ out/
 target/
 local.properties
 
+# VScode #
+####################
+.vsocde/
+
 # Eclipse #
 ################
 .settings/

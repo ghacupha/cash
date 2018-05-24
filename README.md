@@ -302,7 +302,7 @@ Hehehe! An [abstraction](https://github.com/ghacupha/book-keeper) for another da
 #### Okay, you sold me. How do I install it?
 I was not selling you. Seriously, I mean it, don't use this library! Very well if you are going to ignore
 everything I tell you, you might download this with maven using jitpack repository like so:
-```java
+```xml
 <repositories>
   <repository>
    <id>jitpack.io</id>
@@ -314,7 +314,7 @@ everything I tell you, you might download this with maven using jitpack reposito
 <dependency>
   <groupId>com.github.ghacupha</groupId>
   <artifactId>cash</artifactId>
-  <version>1.0.0</version>
+  <version>1.0.1</version>
 </dependency>
 
 ```
@@ -340,12 +340,12 @@ everything I tell you, you might download this with maven using jitpack reposito
  ```
 
 Then now you could add it from your local maven repository like so:
-```java
+```xml
 <!-- Dependencies -->
 <dependency>
   <groupId>com.github.ghacupha</groupId>
   <artifactId>cash</artifactId>
-  <version>1.0.0</version>
+  <version>1.0.1</version>
 </dependency>
 ```
 
